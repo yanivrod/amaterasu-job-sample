@@ -1,5 +1,10 @@
 ---
-job-name:		amaterasu-test
+job-name:    amaterasu-test
 flow:
-	- sequential-action name=start type=spark-scala file=file.scala
+    - name: start
+      type: spark-scala
+      file: file.scala
+    - name: step2
+      type: spark-scala
+      file: file2.scala
 ...
