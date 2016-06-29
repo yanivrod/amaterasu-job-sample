@@ -1,6 +1,6 @@
 {
 	"name":"default",
-	"sparkMasterUrl":"mesos:localhost//:5050",
+	"sparkMasterUrl":"mesos://localhost:5050",
 	"inputRootPath":"hdfs://localhost:9000/user/amaterasu/input",
 	"outputRootPath":"hdfs://localhost:9000/user/amaterasu/output",
 	"workingDir":"alluxio://localhost:19998/",
