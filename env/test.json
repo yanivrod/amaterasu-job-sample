@@ -1,0 +1,9 @@
+{
+				"name":"test",
+				"inputRootPath":"file:///tmp/input",
+				"outputRootPath":"file:///tmp/output",
+				"workingDir":"file:///tmp/work",
+				"configuration":{
+								"spark.cassandra.connection.host":"127.0.0.1",
+								"sourceTable":"documents"}
+}
