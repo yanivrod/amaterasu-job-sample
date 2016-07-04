@@ -1,5 +1,7 @@
-ta = Array(1, 2, 3, 4, 5)
-val x = data.tail
+import io.shinto.amaterasu.execution.AmaContext
 
-val rdd = sc.parallelize(data)
-val even = rdd.filter(n => n%2 == 0)
+val oddRdd = AmaContext.getRDD[Int]("start", "rdd").filter(x=>x/2 == 0)
+oddRdd.take(5).foreach(println)
+
+val highNoDf = AmaContext.getDataFrame("start", "x").where("_1 > 3")
+highNoDf.show
