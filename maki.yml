@@ -7,4 +7,7 @@ flow:
     - name: step2
       type: spark-scala
       file: file2.scala
+    - name: error
+      type: spark-scala
+      file: error.scala        
 ...
