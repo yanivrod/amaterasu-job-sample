@@ -1,3 +1,4 @@
+1 / 0
 val oddRdd = AmaContext.getRDD[Int]("start", "rdd").filter(x=>x%2 == 0)
 oddRdd.saveAsTextFile(s"${env.outputRootPath}/test/ordd_rdd")
 
