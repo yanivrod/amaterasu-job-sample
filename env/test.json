@@ -1,9 +1,9 @@
 {
 	"name":"test",
 	"master":"local[*]",
-	"inputRootPath":"s3n://amaterasu/input",
-	"outputRootPath":"s3n://amaterasu/output",
-	"workingDir":"s3n://amaterasu/work_dir",
+	"inputRootPath":"file:/i//amaterasu/input",
+	"outputRootPath":"file:///amaterasu/output",
+	"workingDir":"file:///tmp/amaterasu/work_dir",
 	"configuration":{
 		"spark.cassandra.connection.host":"127.0.0.1",
 		"sourceTable":"documents"
