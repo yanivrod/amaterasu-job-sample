@@ -5,7 +5,6 @@
 	"outputRootPath":"file:///amaterasu/output",
 	"workingDir":"file:///tmp/amaterasu/work_dir",
 	"configuration":{
-		"spark.cassandra.connection.host":"127.0.0.1",
-		"sourceTable":"documents"
+		"err-msg":"To make error is human. To propagate error to all server in automatic way is #devops.\n                                   -DevOps Borat"
 	}
 }
