@@ -2,9 +2,11 @@
 job-name:    amaterasu-test
 flow:
     - name: start
-      type: spark-scala
+      group: spark
+      type: scala
       file: file.scala
     - name: step2
-      type: spark-scala
+      group: spark
+      type: scala
       file: file2.scala
 ...
