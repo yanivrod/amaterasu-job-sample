@@ -7,7 +7,7 @@ flow:
           type: scala        
       file: file.scala
       exports:
-          odd: parquet
+          odd: orc
     - name: step2
       runner:
           group: spark
