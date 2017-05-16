@@ -1,6 +1,6 @@
 {
 	"name":"test",
-	"master":"local[*]",
+	"master":"local",
 	"inputRootPath":"file:/i//amaterasu/input",
 	"outputRootPath":"file:///amaterasu/output",
 	"workingDir":"file:///tmp/amaterasu/work_dir",
