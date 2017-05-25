@@ -1,5 +1,4 @@
 val data = 1 to 1000 
-val x = data.tail
 
 val rdd = sc.parallelize(data)
 
