@@ -1,8 +1,8 @@
 name: test
 master: yarn
-inputRootPath: hdfs:///apps/amaterasu/input
-outputRootPath: hdfs:///apps/amaterasu/output
-workingDir: hdfs:///apps/amaterasu/work_dir
+inputRootPath: hdfs://sandbox.hortonworks.com:8020/apps/amaterasu/input
+outputRootPath: hdfs://sandbox.hortonworks.com:8020/apps/amaterasu/output
+workingDir: hdfs://sandbox.hortonworks.com:8020/apps/amaterasu/work_dir
 configuration:
     spark.cassandra.connection.host: 127.0.0.1
     sourceTable: documents
