@@ -1,0 +1,8 @@
+name: test
+master: yarn
+inputRootPath: wasb://amahdi-2018-02-02t21-18-29-269z@amahdistr.blob.core.windows.net/apps/amaterasu/input
+outputRootPath: wasb://amahdi-2018-02-02t21-18-29-269z@amahdistr.blob.core.windows.net/apps/amaterasu/output
+workingDir: wasb://amahdi-2018-02-02t21-18-29-269z@amahdistr.blob.core.windows.net/apps/amaterasu/work_dir
+configuration:
+    spark.cassandra.connection.host: 127.0.0.1
+    sourceTable: documents
