@@ -3,14 +3,14 @@ job-name:    amaterasu-test
 flow:
     - name: start
       runner:
-          group: scala-shell
-          type: scala        
+          group: spark
+          type: scala-shell        
       file: file.scala
       exports:
           odd: parquet
     - name: step2
       runner:
-          group: scala-shell
-          type: scala 
+          group: spark
+          type: scala-shell
       file: file2.scala
 ...
