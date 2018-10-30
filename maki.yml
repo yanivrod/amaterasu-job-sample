@@ -5,7 +5,12 @@ flow:
       runner:
           group: spark
           type: scala-shell        
-      file: file.scala
+      artifact: 
+          repo: https://packagecloud.io/yanivr/amaterasu-demo/maven2
+          groupid: io.shonto
+          artifactId: amaterasu-simple-spar
+          version: 1.0-SNAPSHOT
+      class: DataGenerator
       exports:
           odd: parquet
     - name: step2
