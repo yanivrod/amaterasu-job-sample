@@ -6,10 +6,13 @@ flow:
           group: spark
           type: scala-jar        
       artifact: 
-          repo: https://packagecloud.io/yanivr/amaterasu-demo/maven2
           groupid: io.shonto
           artifactId: amaterasu-simple-spar
           version: 1.0-SNAPSHOT
+      repo:
+          id: packagecloud
+          type: default
+          url: https://packagecloud.io/yanivr/amaterasu-demo/maven2
       class: DataGenerator
       exports:
           odd: parquet
