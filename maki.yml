@@ -6,7 +6,7 @@ flow:
           group: spark
           type: scala-jar        
       artifact: 
-          groupid: io.shonto
+          groupId: io.shonto
           artifactId: amaterasu-simple-spar
           version: 1.0-SNAPSHOT
       repo:
