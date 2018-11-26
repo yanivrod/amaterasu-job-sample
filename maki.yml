@@ -8,7 +8,7 @@ flow:
       artifact: 
           groupId: io.shonto
           artifactId: amaterasu-simple-spark
-          version: 1.0-SNAPSHOT
+          version: 0.1
       repo:
           id: packagecloud
           type: default
