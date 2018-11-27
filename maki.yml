@@ -12,7 +12,7 @@ flow:
       repo:
           id: packagecloud
           type: default
-          url: https://packagecloud.io/yanivr/amaterasu-demo
+          url: https://packagecloud.io/yanivr/amaterasu-demo/maven2
       class: DataGenerator
       exports:
           odd: parquet
