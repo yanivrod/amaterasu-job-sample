@@ -19,6 +19,6 @@ flow:
     - name: step2
       runner:
           group: spark
-          type: scala-shell
+          type: scala-jar
       file: file2.scala
 ...
